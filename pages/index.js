@@ -15,9 +15,9 @@ export default function Home() {
           This'll be my updated personal website built by using Next.js 13.
 
         </p>
-        <p>
+        {/* <p>
           <a target="_blank" href="https://ozportfolio.herokuapp.com/">Check this out</a> if you want to see old version
-        </p>
+        </p> */}
       </section>
     </Layout>
   )
