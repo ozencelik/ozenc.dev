@@ -1,7 +1,8 @@
+import Layout from "../../components/layout";
+
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 
 export default function FirstPost() {
     return (
@@ -9,17 +10,10 @@ export default function FirstPost() {
             <Head>
                 <title>First Post</title>
             </Head>
-            <Script
-                src="https://connect.facebook.net/en_US/sdk.js"
-                strategy="lazyOnload"
-                onLoad={() =>
-                    console.log('Script loaded now!')
-                }
-            />
 
             <h1>First Post</h1>
             <h2>
-                <Link href="/">Back to home</Link>
+                <Link href="/">← Back to home</Link>
                 <Image
                     src="/images/profile.png"
                     width={50}
