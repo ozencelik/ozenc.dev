@@ -48,11 +48,11 @@ export default function Layout({ children, home }) {
                         <Link href="/">
                             <Image
                                 priority
-                                src="/images/profile.png"
+                                src="/images/logo.png"
                                 className={utilStyles.borderCircle}
                                 height={108}
                                 width={108}
-                                alt="Özenç Çelik"
+                                alt="Logo of ozenc.dev"
                             />
                         </Link>
                         <h2 className={utilStyles.headingLg}>
