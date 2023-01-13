@@ -25,11 +25,8 @@ export default function Home({ allPostsData }) {
         <p>Heyy! I'm Özenç.</p>
         <p>
           This'll be my updated personal website built by using Next.js 13.
-
         </p>
-        {/* <p>
-          <a target="_blank" href="https://ozportfolio.herokuapp.com/">Check this out</a> if you want to see old version
-        </p> */}
+        <Link href={`/techstack`}>My Techstack</Link>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
